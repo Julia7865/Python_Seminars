@@ -1,0 +1,23 @@
+# Напишите программу, 
+# которая будет на вход принимать число N и 
+# выводить числа от -N до N
+
+# *Примеры:*
+
+# - 5 -> -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5
+
+
+number = int(input('Введите число: '))
+my_list = []
+
+for i in range(- number, number + 1):
+    my_list.append(i)
+print(*my_list, sep=', ')
+
+for i in range(- number, number):
+    print(i, end=', ')
+print(i + 1)
+
+for i in range(- number, number):
+    print(f'{i}, ', end='')
+print(number)

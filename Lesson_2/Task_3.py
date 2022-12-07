@@ -10,5 +10,5 @@ for i in range(len(string1)):
 print(count)
 
 count = string1.count(string2)
-print(f'Подстока {string2} встречается в строке '
+print(f'Подстpока {string2} встречается в строке '
         f' {string1} {count} раз')
